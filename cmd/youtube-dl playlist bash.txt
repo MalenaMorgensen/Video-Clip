@@ -1,0 +1,1 @@
+while ! youtube-dl -i -f 'bestvideo[ext=webm]+bestaudio[ext=webm]/bestvideo[ext=mp4]+bestaudio[ext=m4a]' https://www.youtube.com/playlist?list= --socket-timeout 5; do echo DISCONNECTED; sleep 5; done

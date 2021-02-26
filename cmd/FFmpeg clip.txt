@@ -1,0 +1,1 @@
+ffmpeg -i input.webm -ss 00:00 -t 00:00 -acodec copy -vcodec copy output.webm
