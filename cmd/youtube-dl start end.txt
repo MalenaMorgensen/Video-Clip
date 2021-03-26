@@ -1,1 +1,1 @@
-youtube-dl --cookies F:/cookies.txt --playlist-start 1 --playlist-end 1000 -i -f bestvideo[ext!=mp4]‌​+bestaudio[ext!=m4a]/bestvideo[ext!=webm]+bestaudio[ext!=webm] url
+youtube-dl --cookies F:/cookies.txt --playlist-start 1 --playlist-end 1000 -i -f bestvideo[ext!=mp4]‌​+bestaudio[ext!=m4a]/bestvideo[ext!=webm]+bestaudio[ext!=webm] https://www.youtube.com/channel/
