@@ -1,0 +1,8 @@
+for f in *.f303.webm; do ffmpeg -fflags +genpts -r "60000/1001" -vsync drop -i "${f}" -map_metadata -1 -c:v copy file:"${f%%.*}.ivf"; done
+
+https://www.reddit.com/r/youtubedl/comments/hukzlq/error_conversion_failed/
+
+
+for v in *.ivf; do ffmpeg -i "${v}" -i "${v//.ivf/.f251.webm}" -acodec copy -vcodec copy "${v//.ivf/.webm}"; done
+
+https://superuser.com/questions/762909/how-to-batch-multiplex-audio-and-video-track-files-with-ffmpeg

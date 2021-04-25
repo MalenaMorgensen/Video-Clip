@@ -1,1 +1,3 @@
 while ! youtube-dl -i -f 'bestvideo[ext=webm]+bestaudio[ext=webm]/bestvideo[ext=mp4]+bestaudio[ext=m4a]' https://www.youtube.com/watch?v= --socket-timeout 5; do echo DISCONNECTED; sleep 5; done
+
+https://stackoverflow.com/questions/36401603/retry-when-connection-disconnect-not-working
