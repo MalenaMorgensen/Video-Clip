@@ -1,0 +1,7 @@
+for i in *.mkv; do
+    ffmpeg -i "$i" -codec copy -strict -2 "${i%.*}.mp4"
+done
+
+https://askubuntu.com/questions/396883/how-to-simply-convert-video-files-i-e-mkv-to-mp4
+
+https://stackoverflow.com/questions/55727410/mkv-to-mp4-converion-using-ffmpeg-giving-error

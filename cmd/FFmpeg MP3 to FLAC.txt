@@ -1,0 +1,5 @@
+for f in *.mp3;do ffmpeg -i "${f}" -c:v copy "${f%.*}".flac;done
+
+https://superuser.com/a/1349762
+
+https://stackoverflow.com/a/55762551
